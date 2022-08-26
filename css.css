@@ -1,0 +1,92 @@
+header{
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    padding: 1rem 0rem;
+
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+width: 100%;
+margin-top: 1rem;
+list-style: none;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.menu li{
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    color: var(--color2);
+
+    
+}
+
+.banner{
+    width: 100%;
+    height: 55rem;
+    background-image: url(./bloque_1.png);
+    background-position: center;
+
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.banner .contenido_banner{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+}
+
+.contenido_banne span, h1, p{
+    color: var(--color4);
+    margin-top: 1.5rem;
+}
+
+.contenido_banne span{
+    font-size: 2 rem;
+}
+
+.contenido_banne h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.contenido_banne p{
+    font-size: 1.7 rem;
+}
+
+.boton{
+    text-decoration: none;
+    display: block;
+    width: 21rem;
+    height: 5rem;
+    background-color: var(--color1);
+    color: var(--color4);
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    margin: auto;
+    margin-top: 2rem;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
